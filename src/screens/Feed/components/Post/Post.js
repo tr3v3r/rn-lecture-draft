@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
   },
 });
 
-
 export default class Post extends Component {
   getImage = () => {
     const { image } = this.props;
@@ -51,7 +50,6 @@ export default class Post extends Component {
       </View>
     );
   }
-
 
   render() {
     const {
