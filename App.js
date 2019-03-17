@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
-import AppContainer from './src';
+import React, { Component } from 'react';
+import { View } from 'react-native';
 
-console.disableYellowBox = true
+console.disableYellowBox = true;
 export default class App extends Component {
   render() {
     return (
-     <AppContainer />
+      <View style={{ flex: 1 }} />
     );
   }
 }
-
-
